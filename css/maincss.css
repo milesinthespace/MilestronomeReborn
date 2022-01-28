@@ -1,0 +1,187 @@
+
+.align-content {
+	align-self: start;
+}
+#logo {
+	font-family: JosefinSlab-Regular;
+	text-transform: uppercase;
+	font-size: 48px;
+	padding-bottom: 60px;
+	padding-left: 30px;
+}
+
+
+
+.albumsnav a {
+	font-family: JosefinSans-Regular;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	
+}
+
+.albumsnav a:hover {
+	color: inherit;
+	cursor: pointer;
+}
+
+.albumsnav li {
+	padding-bottom: 30px;
+}
+
+
+.othersnav a {
+	font-family: JosefinSlab-ThinItalic;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	
+}
+
+.othersnav a:hover {
+	color: inherit;
+	cursor: pointer;
+}
+
+.othersnav li {
+	padding-bottom: 20px;
+}
+
+
+.svgresize {
+	width: 22px;
+	height: 22px;
+}
+#act {
+	color: #999898;
+}
+
+.image img {
+	padding: 56px 30px 0px 200px;
+	width: 950px;
+	height: 670px;
+	
+	object-fit: cover;
+}
+.carousel-controls {
+	display: flex;
+	position: absolute;
+	left: 75px;
+	bottom: 35px;
+	font-family: JosefinSlab-thinitalic;
+
+}
+.carousel-control {
+	font-size: 20px;
+	text-transform: uppercase;
+	border: none;
+	background-color: inherit;
+	padding-left: 3px;
+	padding-right: 0;
+
+}
+
+.carousel-control-prev {
+	margin-left: 160px;
+}
+
+
+
+
+@media only screen
+ 	and (min-device-width: 320px)
+	and (max-device-width: 768px) 
+	{
+		#logo {
+	font-family: JosefinSlab-Regular;
+	text-transform: uppercase;
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+
+.albumsnav a {
+	font-family: JosefinSans-Regular;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	
+}
+
+
+
+.albumsnav li {
+	padding-bottom: 10px;
+}
+
+
+.othersnav a {
+	font-family: JosefinSlab-ThinItalic;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	
+}
+
+
+.othersnav li {
+	padding-bottom: 15px;
+}
+
+
+.svgresize {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+}
+#resizeresponsive {
+	width: 10px;
+	height: 10px;
+
+}
+
+
+
+		.carousel-inner {
+			overflow: shown;
+		}
+	.image img {
+		position: relative;
+		left: 2.5%;
+	padding: 20px 5px 20px 5px;
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+	overflow: shown;
+}
+
+.carousel-controls {
+	display: flex;
+	position: absolute;
+	top: 620px;
+	left: 110px;
+	bottom: 0px;
+	font-family: JosefinSlab-thinitalic;
+	padding-bottom: 30px;
+
+}
+.carousel-control {
+	position: relative;
+	top: 80%;
+	font-size: 15px;
+	text-transform: uppercase;
+	border: none;
+	background-color: inherit;
+	padding-left: 3px;
+	padding-right: 0;
+    
+}
+
+.carousel-control-prev {
+	margin-left: 0px;
+
+}
+
+
+	}

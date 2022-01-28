@@ -1,0 +1,19 @@
+@font-face {
+
+	font-family: JosefinSlab-Regular;
+	src: url(../fonts/JosefinSlab-Regular.ttf);
+
+}
+@font-face {font-family: JosefinSans-Light;
+	src: url(../fonts/JosefinSans-Light.ttf);}
+
+
+	
+@font-face {font-family: JosefinSlab-ThinItalic;
+	src: url(../fonts/JosefinSlab-ThinItalic.ttf);}
+
+
+@font-face {
+	font-family: JosefinSans-Regular;
+	src:  url(../fonts/JosefinSans-Regular.ttf);
+}

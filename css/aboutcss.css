@@ -1,0 +1,228 @@
+body {
+	overflow-x: hidden;
+}
+body a {
+	text-decoration: none;
+	color: inherit;
+}
+body a:hover {
+	text-decoration: none;
+	color: inherit;
+}
+
+.align-content {
+	align-self: start;
+}
+.align {
+	align-content: center;
+}
+#logo {
+	font-family: JosefinSlab-Regular;
+	text-transform: uppercase;
+	font-size: 48px;
+	padding-bottom: 60px;
+	padding-left: 30px;
+}
+
+
+
+.albumsnav a {
+	font-family: JosefinSans-Regular;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+	
+}
+
+.albumsnav a:hover {
+	color: inherit;
+	cursor: pointer;
+}
+
+.albumsnav li {
+	padding-bottom: 30px;
+}
+
+
+.othersnav a {
+	font-family: JosefinSlab-ThinItalic;
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	
+}
+
+.othersnav a:hover {
+	color: inherit;
+	cursor: pointer;
+}
+
+.othersnav li {
+	padding-bottom: 20px;
+}
+
+
+.svgresize {
+	width: 22px;
+	height: 22px;
+}
+
+/*local*/
+
+.about {
+
+	width: 40%;
+	position: relative;
+	top: 10%;
+}
+
+.about h1 {
+	text-transform: uppercase;
+	font-family: JosefinSans-Regular;
+	font-size: 25px;
+	padding-bottom: 60px ;
+}
+.about h3, p {
+	font-family: JosefinSans-Light;
+	font-size: 20px;
+}
+
+.about p {
+	position: relative;
+	top: 20%;
+}
+
+.aboutimage {
+	position: relative;
+	top: 15%;
+	width: 34%;
+
+	align-content: center;
+
+}
+
+#moveright {
+	position: relative;
+	left: 20%;
+	padding-bottom: 10px;
+}
+
+.entireabout {
+	position: relative;
+	left: 5%;
+}
+
+@media only screen
+ 	and (min-device-width: 320px)
+	and (max-device-width: 768px) 
+	{
+
+		html {overflow: shown;}
+		#logo {
+	font-family: JosefinSlab-Regular;
+	text-transform: uppercase;
+	font-size: 28px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+}
+
+.albumsnav a {
+	font-family: JosefinSans-Regular;
+	text-decoration: none;
+	color: black;
+	font-size: 15px;
+	
+}
+
+
+
+.albumsnav li {
+	padding-bottom: 10px;
+}
+
+
+.othersnav a {
+	font-family: JosefinSlab-ThinItalic;
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+	
+}
+
+
+.othersnav li {
+	padding-bottom: 15px;
+}
+
+
+.svgresize {
+	width: 10px;
+	height: 10px;
+	margin-left: 10px;
+}
+#resizeresponsive {
+	width: 10px;
+	height: 10px; }
+
+
+.about {
+
+	width: 70%;
+	transform: translateY(50px) translateX(120px);
+	
+	}
+
+.about h1 {
+	text-transform: uppercase;
+	font-family: JosefinSans-Regular;
+	font-size: 15px;
+	padding-bottom: 10px ;
+}
+.about h3, p {
+	font-family: JosefinSans-Light;
+	font-size: 10px;
+}
+
+.about p {
+	position: relative;
+	top: 2.5%;
+}
+
+.aboutimage {
+	transform: translateY(320px) translateX(-100px);
+	width: 20%;
+	padding-bottom: 0;
+	align-content: center;
+
+}
+
+.image1 {
+	width: 120px;
+	height: 90px;
+}
+
+.image2 {
+	width: 200px;
+	height: 140px;
+}
+
+#moveright {
+	position: relative;
+	left: 35px;
+	padding-bottom: 10px;
+}
+
+.entireabout {
+	position: relative;
+	left: 0%;
+	
+	transform: translateX(-350px) translateY(380px);
+	
+}
+
+
+
+
+
+	}
